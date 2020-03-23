@@ -1,0 +1,16 @@
+{
+  "name": "image hider",
+  "description": "hide image on current page",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "toggle"
+  },
+  "manifest_version": 2
+}
